@@ -10,7 +10,7 @@
 /* Hardware & software constants */
 #define PAGESIZE		  4096			/* page size in bytes	*/
 #define WORDLEN			  4				  /* word size in bytes	*/
-
+#define MAXPROC       20        /* Maximum concurrent processes */
 
 /* timer, timescale, TOD-LO and other bus regs */
 #define RAMBASEADDR		0x10000000
